@@ -1,0 +1,22 @@
+{
+  "name": "mdn",
+  "version": "1.0.0",
+  "description": "This project is a simple **Annual College Fest website** served using a **Node.js static server**.  \r It demonstrates how to serve HTML and CSS files using Node.js without any frameworks.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrikant-devv/Annual-college-fest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shrikant-devv/Annual-college-fest/issues"
+  },
+  "homepage": "https://github.com/shrikant-devv/Annual-college-fest#readme"
+}
