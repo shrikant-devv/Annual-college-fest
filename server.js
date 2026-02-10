@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 8000;
 const DIR = __dirname;
 
 const server = http.createServer((req, res) => {
-    let filePath = path.join(DIR, req.url === '/' ? '1st.html' : req.url);
+    let filePath = path.join(DIR, req.url === '/' ? 'index.html' : req.url);
+
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
