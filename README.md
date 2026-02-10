@@ -27,13 +27,27 @@ It demonstrates how to serve HTML and CSS files using Node.js without any framew
 
 ## 📂 Project Structure
 Annual-college-fest
+Annual-college-fest/
+│
+├── server.js              # Node.js HTTP server
 
-├── 1st.html # Main HTML page
+├── package.json           # Project metadata & scripts
 
-├── style.css # Styling for the webpage
+├── package-lock.json      # Dependency lock file
 
-├── server.js # Node.js static server
+├── README.md              # Project documentation
 
-└── README.md # Project documentation
+├── public/                # Static files (frontend)
+
+│   ├── index.html         # Main HTML file
+
+│   ├── style.css          # CSS styles
+│   ├── script.js          # (optional) JS for frontend
+│   └── assets/            # Images, icons, etc.
+│       ├── logo.png
+│       └── banner.jpg
+
+└── .gitignore             # Ignored files
+
 
 
