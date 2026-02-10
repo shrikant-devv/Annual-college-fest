@@ -42,9 +42,13 @@ Annual-college-fest/
 │   ├── index.html         # Main HTML file
 
 │   ├── style.css          # CSS styles
+
 │   ├── script.js          # (optional) JS for frontend
+
 │   └── assets/            # Images, icons, etc.
+
 │       ├── logo.png
+
 │       └── banner.jpg
 
 └── .gitignore             # Ignored files
