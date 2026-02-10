@@ -26,4 +26,11 @@ It demonstrates how to serve HTML and CSS files using Node.js without any framew
 ---
 
 ## 📂 Project Structure
+Annual-college-fest/
+│
+├── 1st.html # Main HTML page
+├── style.css # Styling for the webpage
+├── server.js # Node.js static server
+└── README.md # Project documentation
+
 
