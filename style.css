@@ -1,0 +1,338 @@
+/* Main Body Styling */
+body {
+    background-color: #f5f7fa;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: white;
+    padding: 70px 20px;
+}
+
+/* Card Styling */
+.section-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.section-title {
+    border-left: 5px solid #ff9800;
+    padding-left: 10px;
+    color: #2c5364;
+}
+
+/* Poster Styling */
+.poster {
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.poster-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.poster-img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Event Box Styling */
+.event-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.event-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.event-box h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Feature Box Styling */
+.feature-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4);
+}
+
+.feature-box h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.feature-box p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* About Section Info Boxes */
+.about-info-box {
+    display: flex;
+    text-align: left;
+}
+
+.about-info-box h5 {
+    color: #0f2027;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.about-info-box p {
+    color: #555;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* Key Features Section */
+.feature-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.feature-item-icon {
+    font-size: 35px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.feature-item-content h5 {
+    color: #0f2027;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.feature-item-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Enhanced Table Styling */
+.table {
+    font-weight: 500;
+}
+
+.table thead {
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: white;
+}
+
+.table tbody tr {
+    border-bottom: 2px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Prize Card Styling */
+.prize-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-top: 4px solid #ff9800;
+}
+
+.prize-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.prize-card h5 {
+    color: #0f2027;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+/* Registration Form Styling */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    padding: 12px 15px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.15);
+    background-color: #f8f9ff;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+/* Register Button Styling */
+.btn-warning {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(135deg, #f57c00, #e65100);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 152, 0, 0.3);
+}
+
+.btn-warning:active {
+    transform: translateY(0);
+}
+
+/* Accordion Styling */
+.accordion-button {
+    font-weight: 600;
+    color: #0f2027;
+    padding: 15px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9ff;
+    color: #667eea;
+}
+
+.accordion-button:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.15);
+}
+
+.accordion-body {
+    padding: 20px;
+    background-color: #fafbfc;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Statistics Section */
+.stat-box {
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f5f7ff 0%, #f9f9ff 100%);
+    transition: all 0.3s ease;
+}
+
+.stat-box h4 {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.stat-box p {
+    margin: 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Guidelines Section */
+.guidelines-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.guidelines-list li {
+    padding: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+    line-height: 1.7;
+}
+
+.guidelines-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Alert Styling */
+.alert {
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 15px 20px;
+}
+
+.alert-info {
+    background-color: #e3f2fd;
+    border-color: #667eea;
+    color: #0f2027;
+}
+
+/* Section Spacing */
+section {
+    margin-bottom: 60px;
+}
+
+/* Footer Styling */
+footer {
+    background: #0f2027;
+    color: #ccc;
+}
+
+footer span {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 15px;
+    }
+
+    .event-box h5 {
+        font-size: 18px;
+    }
+
+    .stat-box h4 {
+        font-size: 24px;
+    }
+
+    .section-card {
+        padding: 20px !important;
+    }
+}
